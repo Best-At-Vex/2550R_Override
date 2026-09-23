@@ -46,6 +46,7 @@ ez::Drive chassis(
  * to keep execution time for this mode under a few seconds.
  */
 void initialize() {
+  pros::AIVision vision(20);
   // Print our branding over your terminal :D
   ez::ez_template_print();
 

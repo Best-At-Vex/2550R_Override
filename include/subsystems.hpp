@@ -3,6 +3,7 @@
 #include "EZ-Template/api.hpp"
 #include "api.h"
 
+
 extern Drive chassis;
 
 inline pros::Controller master(pros::E_CONTROLLER_MASTER);
@@ -29,6 +30,8 @@ inline pros::Distance Distance_Back(3);
 inline pros::Distance Distance_Match_Lift(21);
 inline pros::Distance Distance_Front(99);
 inline pros::Distance Clamp_Sensor(18);
+
+inline pros::AIVision Vision(20);
 
 inline pros::Rotation Lift_Rotation(-19);
 
